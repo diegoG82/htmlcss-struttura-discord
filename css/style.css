@@ -1,3 +1,44 @@
+/* RESET */
 body{
-    background-color: rgb(39, 135, 65);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+
+.flex-header{
+    background-color: lightblue;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav{
+    display: flex;
+    background-color: orange;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.main-header{
+
+    height: 300px;
+    background-color: blue;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quadrato-header{
+height: 200px;
+width: 400px;
+background-color: violet;
+
+
+
+
+}
+
+
+
