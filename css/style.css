@@ -15,7 +15,7 @@ body{
 }
 
 .nav{
-    display: flex;
+    display:flex;
     background-color: orange;
     justify-content: space-around;
     gap: 20px;
@@ -31,13 +31,59 @@ body{
 }
 
 .quadrato-header{
-height: 200px;
-width: 400px;
-background-color: violet;
+    height: 200px;
+    width: 400px;
+    background-color: violet;
+
+}
+
+/* MAIN */
+
+.white{
+    background-color: white;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grey{
+    background-color: lightgray;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+}
 
 
+.grey-big{
+
+    background-color: lightgray;
+    height: 700px;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+  }
 
 
+.square-blue{
+    background-color: cornflowerblue;
+    height: 300px;
+    width: 400px;
+}
+
+.square-pink{
+background-color: pink;
+height: 300px;
+width:300px;
+}
+
+.square-green{
+    background-color: green;
+    height: 600px;
+    width: 800px;
+    
 }
 
 
